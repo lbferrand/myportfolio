@@ -1,18 +1,67 @@
 body {
-  background: #f8f0ec;
+  background: white;
 }
 
 h1 {
   font-family: WindSong;
+  font-size: 60px;
   text-align: center;
+  padding-top: 20px;
+  color: #792344;
 }
 
 h4 {
   font-family: Klee One;
   text-align: center;
+  padding-top: 20px;
+  color: #792344;
 }
 
 h3 {
   font-family: Klee One;
+  color: #792344;
+  margin-right: 25px;
+  margin-left: 10px;
+}
+
+li {
+  font-family: Klee One;
+  font-size: 12px;
+}
+
+p {
+  font-family: Klee One;
+  font-size: 15px;
+  color: #000;
+}
+
+h6 {
+  font-family: Klee One;
+  font-size: 15px;
+  color: #000;
   text-align: center;
+}
+
+img {
+  padding: 20px;
+  max-width: 50%;
+  border: 2px solid;
+  border-radius: 2px;
+}
+
+.nav-bar {
+  background: #f0dee5;
+  padding-top: 30px;
+}
+
+.nav-link {
+  color: #792344;
+}
+
+.header {
+  color: #f8f0ec;
+}
+
+.meet-me {
+  padding-top: 50px;
 }
