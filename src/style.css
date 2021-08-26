@@ -46,7 +46,18 @@ img {
   padding: 20px;
   max-width: 50%;
   border: 2px solid;
-  border-radius: 2px;
+  border-radius: 4px;
+}
+
+.footer {
+  font-family: Klee One;
+  font-size: 10px;
+}
+
+.github-link {
+  font-family: Klee One;
+  font-size: 10px;
+  text-align: center;
 }
 
 .nav-bar {
@@ -62,6 +73,15 @@ img {
   color: #f8f0ec;
 }
 
-.meet-me {
+#meet-me {
   padding-top: 50px;
+  padding-bottom: 20px;
+  text-align: left;
+}
+
+#introduction {
+  font-family: Klee One;
+  text-align: left;
+  padding-top: 10px;
+  color: #792344;
 }
