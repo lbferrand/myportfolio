@@ -32,7 +32,7 @@ h4 {
 
 li {
   font-family: var(--print-font);
-  font-size: 12px;
+  font-size: 15px;
 }
 
 p {
@@ -79,7 +79,19 @@ img {
   color: var(--secondary-color);
 }
 
+.nav-link:hover {
+  color: rgb(135, 78, 133);
+}
+
+.button-index {
+  background: var(--secondary-color);
+  color: var(--menu-bar-color);
+  font-family: var(--print-font);
+}
+
 #button {
+  display: flex;
+  justify-content: center;
   background-color: var(--secondary-color);
   color: var(--menu-bar-color);
   text-decoration: none;
@@ -99,10 +111,6 @@ img {
   font-family: var(--print-font);
   text-align: left;
   padding-top: 10px;
-  color: var(--secondary-color);
-}
-
-#menu-links {
   color: var(--secondary-color);
 }
 
