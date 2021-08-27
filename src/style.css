@@ -1,5 +1,5 @@
 :root {
-  --cursive-font: Klee One;
+  --print-font: Klee One;
   --menu-bar-color: #f0dee5;
   --secondary-color: #792344;
 }
@@ -16,13 +16,6 @@ h1 {
   color: var(--secondary-color);
 }
 
-h4 {
-  font-family: var(--cursive-font);
-  text-align: center;
-  padding-top: 40px;
-  color: var(--secondary-color);
-}
-
 h3 {
   font-family: WindSong;
   color: var(--secondary-color);
@@ -30,19 +23,26 @@ h3 {
   margin-left: 10px;
 }
 
+h4 {
+  font-family: var(--print-font);
+  text-align: center;
+  padding-top: 40px;
+  color: var(--secondary-color);
+}
+
 li {
-  font-family: var(--cursive-font);
+  font-family: var(--print-font);
   font-size: 12px;
 }
 
 p {
-  font-family: var(--cursive-font);
+  font-family: var(--print-font);
   font-size: 15px;
   color: #000;
 }
 
 h6 {
-  font-family: var(--cursive-font);
+  font-family: var(--print-font);
   font-size: 15px;
   color: #000;
   text-align: center;
@@ -56,12 +56,12 @@ img {
 }
 
 .footer {
-  font-family: var(--cursive-font);
+  font-family: var(--print-font);
   font-size: 10px;
 }
 
 .github-link {
-  font-family: var(--cursive-font);
+  font-family: var(--print-font);
   font-size: 10px;
   text-align: center;
 }
@@ -71,12 +71,22 @@ img {
   padding-top: 30px;
 }
 
+.hero {
+  color: var(--menu-bar-color);
+}
+
 .nav-link {
   color: var(--secondary-color);
 }
 
-.hero {
+#button {
+  background-color: var(--secondary-color);
   color: var(--menu-bar-color);
+  text-decoration: none;
+  font-family: var(--print-font);
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 4px;
 }
 
 #meet-me {
@@ -86,9 +96,13 @@ img {
 }
 
 #introduction {
-  font-family: var(--cursive-font);
+  font-family: var(--print-font);
   text-align: left;
   padding-top: 10px;
+  color: var(--secondary-color);
+}
+
+#menu-links {
   color: var(--secondary-color);
 }
 
