@@ -1,3 +1,9 @@
+:root {
+  --cursive-font: Klee One;
+  --menu-bar-color: #f0dee5;
+  --secondary-color: #792344;
+}
+
 body {
   background: white;
 }
@@ -7,36 +13,36 @@ h1 {
   font-size: 60px;
   text-align: center;
   padding-top: 20px;
-  color: #792344;
+  color: var(--secondary-color);
 }
 
 h4 {
-  font-family: Klee One;
+  font-family: var(--cursive-font);
   text-align: center;
-  padding-top: 20px;
-  color: #792344;
+  padding-top: 40px;
+  color: var(--secondary-color);
 }
 
 h3 {
   font-family: WindSong;
-  color: #792344;
+  color: var(--secondary-color);
   margin-right: 25px;
   margin-left: 10px;
 }
 
 li {
-  font-family: Klee One;
+  font-family: var(--cursive-font);
   font-size: 12px;
 }
 
 p {
-  font-family: Klee One;
+  font-family: var(--cursive-font);
   font-size: 15px;
   color: #000;
 }
 
 h6 {
-  font-family: Klee One;
+  font-family: var(--cursive-font);
   font-size: 15px;
   color: #000;
   text-align: center;
@@ -50,27 +56,27 @@ img {
 }
 
 .footer {
-  font-family: Klee One;
+  font-family: var(--cursive-font);
   font-size: 10px;
 }
 
 .github-link {
-  font-family: Klee One;
+  font-family: var(--cursive-font);
   font-size: 10px;
   text-align: center;
 }
 
 .nav-bar {
-  background: #f0dee5;
+  background: var(--menu-bar-color);
   padding-top: 30px;
 }
 
 .nav-link {
-  color: #792344;
+  color: var(--secondary-color);
 }
 
 .header {
-  color: #f8f0ec;
+  color: var(--menu-bar-color);
 }
 
 #meet-me {
@@ -80,8 +86,8 @@ img {
 }
 
 #introduction {
-  font-family: Klee One;
+  font-family: var(--cursive-font);
   text-align: left;
   padding-top: 10px;
-  color: #792344;
+  color: var(--secondary-color);
 }
