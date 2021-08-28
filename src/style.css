@@ -84,10 +84,12 @@ img {
 
 .nav-link {
   color: var(--secondary-color);
+  transition: all 120ms ease-in-out;
 }
 
-.nav-link:hover {
-  color: rgb(135, 78, 133);
+.nav-link:hover,
+.nav-link.active {
+  color: rgb(206, 200, 206);
 }
 
 .button-index {
@@ -152,5 +154,11 @@ img {
   img {
     border: 1px solid rgb(184, 181, 181);
     padding: 10px;
+  }
+  .logo {
+    display: none;
+  }
+  .nav-link {
+    font-size: 10px;
   }
 }
