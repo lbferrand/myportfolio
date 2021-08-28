@@ -16,6 +16,13 @@ h1 {
   color: var(--secondary-color);
 }
 
+h2 {
+  font-family: WindSong;
+  color: var(--secondary-color);
+  text-align: center;
+  padding: 10px;
+}
+
 h3 {
   font-family: WindSong;
   color: var(--secondary-color);
