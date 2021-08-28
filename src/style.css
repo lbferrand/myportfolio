@@ -62,9 +62,26 @@ img {
   border-radius: 4px;
 }
 
-.footer {
+footer .email-link {
+  color: var(--secondary-color);
   font-family: var(--print-font);
-  font-size: 10px;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+footer .email-link:hover {
+  color: rgb(206, 200, 206);
+}
+
+footer .social-links a {
+  color: var(--secondary-color);
+  margin: 20px;
+  font-family: var(--print-font);
+  transition: all 150ms ease-in-out;
+}
+
+footer .social-links a:hover {
+  color: rgb(206, 200, 206);
 }
 
 .github-link {
@@ -97,8 +114,26 @@ img {
   color: var(--menu-bar-color);
   font-family: var(--print-font);
   padding-bottom: 10px;
+  padding-left: 10px;
 }
 
+.button-menu {
+  background: var(--secondary-color);
+  color: var(--menu-bar-color);
+  font-family: var(--print-font);
+  padding-bottom: 10px;
+  padding-left: 10px;
+}
+
+.inquiry {
+  padding: 25px 15px;
+  background: var(--menu-bar-color);
+  border-radius: 4px;
+}
+
+.inquiry p {
+  margin: 0;
+}
 .myhistory-section {
   padding: 20px 20px;
 }
@@ -108,6 +143,8 @@ img {
 }
 
 .message {
+  font-family: var(--print-font);
+  color: var(--secondary-color);
   text-align: center;
   font-size: 20px;
 }
@@ -160,5 +197,11 @@ img {
   }
   .nav-link {
     font-size: 12px;
+  }
+  .button-index {
+    display: inline;
+  }
+  .button-menu {
+    padding: 10px;
   }
 }
