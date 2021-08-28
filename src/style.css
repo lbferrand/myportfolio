@@ -75,7 +75,7 @@ img {
 
 .nav-bar {
   background: var(--menu-bar-color);
-  padding-top: 30px;
+  padding-top: 10px;
 }
 
 .hero {
@@ -159,6 +159,6 @@ img {
     display: none;
   }
   .nav-link {
-    font-size: 10px;
+    font-size: 12px;
   }
 }
