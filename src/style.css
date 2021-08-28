@@ -87,6 +87,11 @@ img {
   background: var(--secondary-color);
   color: var(--menu-bar-color);
   font-family: var(--print-font);
+  padding-bottom: 10px;
+}
+
+.myhistory-section {
+  padding-top: 10px;
 }
 
 #button {
