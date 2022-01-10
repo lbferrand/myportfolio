@@ -37,42 +37,8 @@
     <title>My Portfolio Luciana Ferrand</title>
   </head>
   <body>
-    <div class="container">
-      <div class="nav-bar">
-        <ul class="nav justify-content-right">
-          <h3 class="logo">My Portfolio</h3>
-          <li class="nav-item">
-            <a class="nav-link active" title="Homepage" href="/index.html"
-              >Home</a
-            >
-          </li>
-          <li class="nav-item">
-            <a
-              class="nav-link"
-              title="My story"
-              aria-current="page"
-              href="/mystory.html"
-              >My Story</a
-            >
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" title="My Work description" href="/mywork.html"
-              >My Work</a
-            >
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" title="Books I read in 2022" href="/books.html"
-              >My Reading</a
-            >
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" title="Contact Information" href="/contact.html"
-              >Contact</a
-            >
-          </li>
-        </ul>
-      </div>
-    </div>
+    <div id="root"></div>
+    <App />
     <div class="container">
       <div class="hero">
         <h4>Hi, My name is</h4>
@@ -87,8 +53,8 @@
             src="/images/portrait.jpg"
             class="img-fluid img-thumbnail shadow"
             alt="luciana's picture"
-            width="50"
-            height="50"
+            width="25"
+            height="25"
           />
         </div>
       </div>
@@ -185,5 +151,6 @@
         </div>
       </footer>
     </div>
+    <script src="/src/index.js"></script>
   </body>
 </html>
