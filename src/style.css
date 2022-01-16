@@ -47,6 +47,10 @@ p {
   font-size: 15px;
   color: #000;
 }
+strong {
+  font-weight: bolder;
+  color: #792344;
+}
 
 h6 {
   font-family: var(--print-font);
