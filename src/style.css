@@ -166,6 +166,10 @@ footer .social-links a:hover {
 .text {
   padding: 20px 20px;
 }
+
+.col-sm-6 {
+  display: block;
+}
 #picture {
   width: 50%;
   height: auto;
