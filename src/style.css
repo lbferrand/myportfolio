@@ -183,7 +183,10 @@ footer .social-links a:hover {
   padding: 10px;
   border-radius: 4px;
 }
-
+#down_button {
+  padding: 10px;
+  margin: 10px;
+}
 #meet-me {
   padding-top: 50px;
   padding-bottom: 20px;
