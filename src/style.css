@@ -225,3 +225,8 @@ footer .social-links a:hover {
     padding: 10px;
   }
 }
+.counter img {
+  display: block;
+  margin: 0 auto;
+  border: none;
+}
