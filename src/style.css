@@ -47,6 +47,10 @@ p {
   font-size: 15px;
   color: #000;
 }
+strong {
+  font-weight: bolder;
+  color: #792344;
+}
 
 h6 {
   font-family: var(--print-font);
@@ -58,9 +62,11 @@ h6 {
 img {
   margin-top: 5px;
   padding: 10px;
-  max-width: 50%;
+  max-width: 20%;
   border: 2px solid gray;
   border-radius: 4px;
+  width: 80%;
+  height: auto;
 }
 
 footer .email-link {
@@ -161,6 +167,15 @@ footer .social-links a:hover {
   padding: 20px 20px;
 }
 
+.col-sm-6 {
+  display: block;
+}
+#picture {
+  width: 50%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
 #button {
   display: flex;
   justify-content: center;
@@ -172,7 +187,10 @@ footer .social-links a:hover {
   padding: 10px;
   border-radius: 4px;
 }
-
+#down_button {
+  padding: 10px;
+  margin: 10px;
+}
 #meet-me {
   padding-top: 50px;
   padding-bottom: 20px;
@@ -206,4 +224,9 @@ footer .social-links a:hover {
   .button-menu {
     padding: 10px;
   }
+}
+.counter img {
+  display: block;
+  margin: 0 auto;
+  border: none;
 }
