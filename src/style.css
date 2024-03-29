@@ -14,6 +14,7 @@ h1 {
   text-align: center;
   padding-top: 20px;
   color: var(--secondary-color);
+  margin-top: 70px;
 }
 
 h2 {
@@ -99,6 +100,10 @@ footer .social-links a:hover {
 
 .nav-bar {
   background: var(--menu-bar-color);
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+  top: 0;
   padding-top: 10px;
 }
 
@@ -170,6 +175,12 @@ footer .social-links a:hover {
 .col-sm-6 {
   display: block;
 }
+.mystory,
+.carousel,
+.contact {
+  margin-top: 100px;
+}
+
 #picture {
   width: 50%;
   height: auto;

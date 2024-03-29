@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -27,48 +27,10 @@
     />
     <link rel="stylesheet" href="src/style.css" />
     <title>Portfolio Skills</title>
+    <script type="module" src="./src/script.js"></script>
   </head>
   <body>
-    <div class="container">
-      <div class="nav-bar">
-        <ul class="nav justify-content-right">
-          <h3 class="logo">My Portfolio</h3>
-          <li class="nav-item">
-            <a class="nav-link" title="Homepage" href="/index.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a
-              class="nav-link"
-              title="My story"
-              aria-current="page"
-              href="/mystory.html"
-              >My Story</a
-            >
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" title="My Work description" href="/mywork.html"
-              >My Work</a
-            >
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" title="Skills" href="/skills.html"
-              >Skills</a
-            >
-          </li>
-
-          <li class="nav-item">
-            <a class="nav-link" title="Books I read in 2022" href="/books.html"
-              >My Reading</a
-            >
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" title="Contact Information" href="/contact.html"
-              >Contact</a
-            >
-          </li>
-        </ul>
-      </div>
-    </div>
+    <article class="main"></article>
     <div class="container">
       <h2>Skills</h2>
       <p>
@@ -103,6 +65,7 @@
         <ul>
           <li>React</li>
           <li>Bootstrap</li>
+          <li>Ruby on Rails</li>
           <li>jQuery</li>
           <li>API</li>
           <li>AJAX</li>
@@ -110,6 +73,7 @@
         <h3>Additional:</h3>
         <ul>
           <li>Flexbox</li>
+          <li>Figma</li>
           <li>Responsive design</li>
           <li>Performance optimisation</li>
           <li>Sketch</li>
@@ -117,6 +81,7 @@
           <li>GitHub</li>
           <li>Hosting</li>
           <li>Photoshop</li>
+          <li>Netlify</li>
         </ul>
       </form>
     </div>
@@ -136,6 +101,14 @@
           role="button"
           aria-pressed="true"
           >My work</a
+        >
+        <a
+          href="/certifications.html"
+          class="btn button-menu"
+          id="down_button"
+          role="button"
+          aria-pressed="true"
+          >My Certifications</a
         >
         <a
           href="/books.html"
@@ -165,30 +138,7 @@
     </div>
 
     <div class="container mt-3">
-      <footer>
-        <div class="footer d-flex justify-content-center">
-          <a href="https://www.lbferrandportfolio.com/" class="email-link"
-            >www.lbferrandportfolio.com</a
-          >
-        </div>
-        <br />
-
-        <div class="social-links d-flex justify-content-center">
-          <a href="mailto:lbferrand@gmail.com">
-            <i class="fas fa-envelope-open-text"> Email</i></a
-          >
-          <a href="https://github.com/lbferrand/myportfolio" target="_blank">
-            <i class="fab fa-github-square"> Github</i></a
-          >
-          <a
-            href="https://www.linkedin.com/in/luciana-bautista-ferrand-615bb0216/"
-            target="_blank"
-          >
-            <i class="fab fa-linkedin-in"> LinkedIn</i></a
-          >
-        </div>
-      </footer>
+      <footer></footer>
     </div>
-    <script src="/src/index.js"></script>
   </body>
 </html>
