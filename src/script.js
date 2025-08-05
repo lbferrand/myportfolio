@@ -59,8 +59,8 @@ article.append(newNav);
 
 const mainFooter = `
         <div class="footer d-flex justify-content-center">
-          <a href="https://www.lbferrandportfolio.com/" class="email-link"
-            >www.lbferrandportfolio.com</a
+          <a href="https://portfolio-lbferrand-animation.netlify.app/" class="email-link"
+            >https://portfolio-lbferrand-animation.netlify.app/</a
           >
         </div>
         <br />
